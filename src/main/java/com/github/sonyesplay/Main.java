@@ -1,19 +1,24 @@
 package com.github.sonyesplay;
 
-import com.github.sonyesplay.mascota.*;
-
 
 public class Main {
 
   public static void main(String[] args) {
-    Mascota mascota = new Mascota("andres","10");
-    Perro p = new Perro("prueba perro","edad perro prueba");
-    Gato g = new Gato("prueba GATO","edad GATO prueba");
+    TiendaMascota tiendaMascota= new TiendaMascota();
+    Perro p = new Perro("mike","5 meses");
+    tiendaMascota.agregarMascota(p);
+    Gato g = new Gato("simon","10 años");
+    tiendaMascota.agregarMascota(g);
+    Perro p2 = new Perro("marco","5 dias");
+    tiendaMascota.agregarMascota(p2);
+    Gato g2 = new Gato("sam","10 meses");
+    tiendaMascota.agregarMascota(g2);
+    //tiendaMascota.agregarMascota(new mascota(("mike","5 meses"));
 
     //perro.agregarAccesorio(new Accesorio("Collar Antipulgas"));
-    System.out.println(mascota);
-    System.out.println(p);
-    System.out.println(g);
+    System.out.println(tiendaMascota);
+    /*System.out.println(p);
+    System.out.println(g);*/
 
   }
 }

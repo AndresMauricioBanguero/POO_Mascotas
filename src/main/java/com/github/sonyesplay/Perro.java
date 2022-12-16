@@ -1,4 +1,4 @@
-package com.github.sonyesplay.mascota;
+package com.github.sonyesplay;
 
 public class Perro extends Mascota {
 

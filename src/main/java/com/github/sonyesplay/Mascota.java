@@ -1,20 +1,12 @@
-package com.github.sonyesplay.mascota;
+package com.github.sonyesplay;
 
-public class Mascota {
+public abstract class Mascota {
     private final String nombre;
     private final String edad;
 
     public Mascota(String nombre, String edad) {
         this.nombre = nombre;
         this.edad = edad;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getEdad() {
-        return edad;
     }
 
     @Override

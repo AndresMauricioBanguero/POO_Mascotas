@@ -1,6 +1,4 @@
-package com.github.sonyesplay.mascota;
-
-import com.github.sonyesplay.mascota.Mascota;
+package com.github.sonyesplay;
 
 public class Gato extends Mascota {
 
